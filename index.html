@@ -1,1 +1,172 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shrish Chaturvedi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!-- Local CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <!-- Title Icon -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/icon.png" />
+    <!-- <script src="main.js"></script> -->
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar">
+            <a class="navbar-brand" href="#">Shrish Chaturvedi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./portfolio.html">Portfolio
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./contact.html">Contact
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Middle Content -->
+
+    <div class="container">
+
+        <div class="row">
+            <!-- About Me -->
+            <div class="col-md-8">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h2 class="display-5">About Me</h2>
+                        <hr>
+                        <!-- Slideshow -->
+                        <div class="maincontent">
+                            <div class="col-md-6">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="./assets/images/shrish1.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./assets/images/shrish2.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./assets/images/shrish3.jpg" alt="Third slide">
+                                        </div>
+
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                                <!-- text -->
+                            <div class="col-md-6">
+                                    <p>My reputation precedes me, like lightning precedes thunder. I am completing this section about
+                                        myself at the last minute like many of my counterparts (maybe). Since I was asked to make
+                                        this interesting, here's a fun fact about me, 'my favourite color is not teal'. Although
+                                        you may find it all over this page, but seriously it's not. If anything, it would be Prussian
+                                        Blue. Some real facts: I enjoy sailing, skiing, watching improv and meditating (sometimes).
+                                        My latest hobby is find cool plugins for Visual Studio Code and collect as many Coins as
+                                        possible, so far I have collected only one, which wasn't due to any plugin. In the future
+                                        I intend to add more genuine info into this section, I promise. But for now, I hope this
+                                        information is enough to make this look like good chunk of information.
+                                    </p>
+                                </div>
+                        </div>
+
+                        
+                       
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-md-4">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h3 class="display-6">Connect With Me</h3>
+                        <hr>
+                        <div class="icons">
+                            <div class="col-md4">
+                                <button type="button" class="btn btn-info">
+                                    <img class="icon" src="./assets/images/fb.jpg" alt="fb">
+                                </button>
+                            </div>
+                            <div class="col-md4">
+                                <button type="button" class="btn btn-info">
+                                    <img class="icon" src="./assets/images/insta.png" alt="insta">
+                                </button>
+                            </div>
+                            <div class="col-md4">
+                                <button type="button" class="btn btn-info">
+                                    <img class="icon" src="./assets/images/linkedin.png" alt="link">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <nav class="navbar navbar-expand-lg navbar-light bg-teal">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">&copy Copyright 2018 Shrish Chaturvedi
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

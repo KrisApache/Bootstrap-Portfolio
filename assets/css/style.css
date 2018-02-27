@@ -1,0 +1,138 @@
+a {
+color: transparent;
+}
+
+.header {
+    background-color: #ffffff;
+    /* padding: 0% 20%; */
+
+}
+
+@keyframes animTitle {
+    0%   {background-color: blue;margin-left: 0%;}
+    25%  {background-color: blueviolet;margin-left: 15%;}
+    50%  {background-color: mediumseagreen;margin-left: 15%;}
+    100% {background-color: teal;margin-left: 15%;}
+}
+
+.navbar-brand {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: teal;
+    padding: 10px;
+    margin-left: 15%;
+    animation-name: animTitle;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    /* margin-right: 38rem; */
+}
+
+.navbar-collapse {
+    color: #777777;
+    margin-left: 29%;
+}
+
+.nav-link {
+    color: #777777;
+}
+
+body {
+background-image: url("../images/background.png");
+}
+
+.container {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.maincontent {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+
+
+.nav-link {
+    text-align: center;
+}
+
+.col-md-8 {
+    height: 80%;
+    margin-bottom: 30px;
+}
+
+/* .col-md-4 {
+    height: 50%;
+} */
+
+.jumbotron {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.display-5, .display-6 {
+color: teal;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.d-block {
+width: 100px;
+height: 370px;
+}
+
+.display-6 {
+    text-align: center;
+}
+
+.icon {
+width: 45px;
+height: 45px;
+padding-left: 0px 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-info {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-primary{
+background-color: teal;
+width: 10rem;
+}
+
+.portfolio {
+display: flex;
+flex-direction: row;
+/* align-content: flex-start; */
+justify-content: space-between;
+flex-wrap: wrap;
+/* padding: 10px; */
+
+}
+
+.card {
+    margin: 10px 60px;
+   
+}
+
+
+
+.footer {
+    background-color: #777777;
+    justify-content: center;
+    border-top: 10px solid teal;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-left: 15%;
+    margin-top: 0px;
+
+}
+
